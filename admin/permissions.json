@@ -1,0 +1,10 @@
+{
+    "admin": {
+        "title": "Administrador",
+        "desc": "Administrador con todos los privilegios de creaci&oacute;n de usuarios"
+    },
+    "manager": {
+        "title": "Gestor de Contenidos",
+        "desc": "Puede administrar todos los contenidos y m&oacute;dulos de la aplicaci&oacute;n, pero no tiene control sobre los usuarios"
+    }
+}

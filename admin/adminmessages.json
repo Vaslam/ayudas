@@ -1,0 +1,66 @@
+{
+    "1": {
+        "text": "No puede ejecutar esta acci&oacute;n con campos obligatorios vac&iacute;os",
+        "type": "danger"
+    },
+    "2": {
+        "text": "La imagen que intenta subir no es valida. Compruebe que sea menor a MAX_FILE_SIZE MB y formato JPG, BMP o PNG",
+        "type": "danger"
+    },
+    "3": {
+        "text": "Email Inv&aacute;lido",
+        "type": "danger"
+    },
+    "4": {
+        "text": "Se ha insertado el contenido correctamente",
+        "type": "success"
+    },
+    "5": {
+        "text": "No se pudo insertar el contenido debido a un error interno",
+        "type": "danger"
+    },
+    "6": {
+        "text": "Eliminaci&oacute;n exitosa",
+        "type": "success"
+    },
+    "7": {
+        "text": "Eliminaci&oacute;n fallida",
+        "type": "danger"
+    },
+    "8": {
+        "text": "Actuaizaci&oacute;n completada",
+        "type": "success"
+    },
+    "9": {
+        "text": "No se ha podido actualizar el contenido debido a un error interno",
+        "type": "danger"
+    },
+    "10": {
+        "text": "Inicio de sesi&oacute;n fallido",
+        "type": "danger"
+    },
+    "11": {
+        "text": "Las contrase&ntilde;as ingresadas no coinciden",
+        "type": "danger"
+    },
+    "12": {
+        "text": "No se pudo iniciar sesi&oacute;n debido a que alguno de los datos es erroneo",
+        "type": "danger"
+    },
+    "13": {
+        "text": "El usuario que intenta ingresar ya existe en la base de datos",
+        "type": "danger"
+    },
+    "14": {
+        "text": "El correo ha sido enviado exitosamente! Muchisimas gracias por contactarnos. Nos pondr&eacute;mos en contacto con usted en las proximas 24 horas.",
+        "type": "success"
+    },
+    "15": {
+        "text": "Por alguna falla interna, el correo no pudo ser enviado",
+        "type": "danger"
+    },
+    "16": {
+        "text": "Lo sentimos. No posee permisos suficientes para acceder a esta secci&oacute;n",
+        "type": "danger"
+    }
+}

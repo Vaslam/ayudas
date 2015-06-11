@@ -1,0 +1,69 @@
+/* 
+    Created on : Jun 7, 2015, 12:07:09 PM
+    Author     : JuanSebastian
+*/
+
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,300,700,800);
+
+$primary-color: #239dd9;
+$secondary-color: #3d64aa;
+$text-color: #444242;
+$white-text-color: #fff;
+
+@mixin border-radius($radius) {
+    -moz-border-radius: $radius;
+    -webkit-border-radius: $radius;
+    border-radius: $radius;
+}
+
+@mixin placeholder {
+    ::-webkit-input-placeholder { @content }
+    ::-moz-placeholder { @content } /* firefox 19+ */
+    :-ms-input-placeholder { @content } /* ie */
+    input:-moz-placeholder { @content }
+}
+
+body {
+    padding-top: 60px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.panel-default {
+    
+    @include border-radius(0px);
+    
+    .panel-heading {
+        background-color: $primary-color;
+        @include border-radius(0px);
+        .panel-title {
+            color: #fff;
+            font-size: 18pt;
+            text-transform: uppercase;
+            text-align: center;
+            font-weight: 700;
+        }
+        
+    }
+    
+}
+
+input[type=text], input[type=password], select {
+    @include border-radius(0px);
+}
+
+@include placeholder {
+    font-style: italic;
+}
+
+.btn-default {
+    @include border-radius(0px);
+    background-color: $secondary-color;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 700;
+    
+    &:hover {
+        background-color: $primary-color;
+        color: #fff;
+    }
+}

@@ -1,0 +1,61 @@
+.navbar-inverse {
+    background: #363636;
+    
+    ul.nav-justified {
+        li {
+            a {
+                color: #fff;
+                i.fa-circle {
+                    color: $primary-color;
+                }
+                i.fa-stack-1x {
+                    color: #fff;
+                }
+                
+                &:hover {
+                    background: none;
+                    span.underline {
+                        text-decoration: underline;
+                    }
+                }
+                
+            }
+        }
+    }
+    
+}
+
+.logo-top {
+    img {
+        margin-top: 30px;
+        margin-bottom: 30px;
+        max-width: 400px;
+    }
+}
+
+.main-menu {
+    background-color: $primary-color;
+    margin-bottom: 50px;
+    a {
+        
+        color: #fff;
+        font-weight: 800;
+        
+        span.menu-text {
+            font-size: 17pt;
+            text-transform: uppercase;
+        }
+        
+        .col-menu {
+            padding: 20px 0px;
+        }
+
+        &:hover {
+            text-decoration: none;
+            .col-menu {
+                background: $secondary-color;
+            }
+        }
+
+    }
+}

@@ -1,0 +1,55 @@
+.home-container {
+    margin-bottom: 50px;
+}
+a {
+    
+    color: $text-color;
+    
+    &:hover {
+        text-decoration: none;
+    }
+    
+    .home-btn {
+        border: #a7a7a7 1px solid;
+        margin-bottom: 14px;
+        
+        &:hover {
+            background: $primary-color;
+            color: #fff;
+        }
+
+        .home-btn-icon {
+            padding-top: 10px;
+            padding-left: 22px;
+        }
+
+        .home-btn-text {
+            h3 {
+                text-transform: uppercase;
+                font-size: 18pt;
+                position: relative;
+                margin: 0px;
+                padding: 10px 0px;
+                &::after {
+                    content: "\f054";
+                    position: absolute;
+                    height: 100%;
+                    right: 0px;
+                    top: 0px;
+                    bottom: 0px;
+                    width: 30px;
+                    color: #FFF;
+                    font-size: 24px;
+                    line-height: 78px;
+                    font-family: "FontAwesome";
+                    text-align: center;
+                    background: $primary-color none repeat scroll 0% 0%;
+                }
+            }
+        }
+    }
+}
+
+.inline-div {
+    display: inline-block;
+}
