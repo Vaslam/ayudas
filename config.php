@@ -30,12 +30,10 @@ define("SOCIAL_ICONS_SET", IMAGES_URL."/social/flat");
 
 //Pages and static content
 define("PAGE_HOME", 1);
-define("PAGE_TOP", 2);
-define("PAGE_BOTTOM", 3);
-define("PAGE_ABOUT", 4);
-define("PAGE_CONTACT", 5);
-define("PAGE_PURCHASE_BOTTOM", 6);
-define("PAGE_CLIENTS", 7);
+define("PAGE_BOTTOM", 2);
+define("PAGE_ABOUT", 3);
+define("PAGE_CONTACT", 4);
+define("PAGE_PURCHASE_BOTTOM", 5);
 
 //Company info
 define("COMPANY_NAME", "Ayudas para Todos");
@@ -95,3 +93,4 @@ define("ITEM_TYPE_PRODUCT", 9);
 define("ITEM_TYPE_PRODUCT_CATEGORY", 10);
 define("ITEM_TYPE_ARTICLE", 11);
 define("ITEM_TYPE_PLAN", 12);
+define("ITEM_TYPE_GALLERY", 13);

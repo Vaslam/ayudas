@@ -51,28 +51,12 @@ $pages = (new Page)->getAll();
                 </li>
                 
                 <li>
-                    <a href="slideshow"><i class="fa fa-image fa-fw"></i> Fotos Slide</a>
-                </li>
-                
-                <li>
                     <a href="social"><i class="fa fa-facebook-square fa-fw"></i> Redes Sociales</a>
                 </li>
                 
                 <li>
                     <a href="email"><i class="fa fa-envelope-square fa-fw"></i> Configurar Correo</a>
                 </li>
-                <!--
-                <li>
-                    <a href="#"><i class="fa fa-briefcase fa-fw"></i> Servicios<span class="fa arrow"></span></a>
-                    <ul class="nav nav-second-level collapse">
-                        <li>
-                            <a href="servicecategories">Categor&iacute;as</a>
-                        </li>
-                        <li>
-                            <a href="services">Gestionar Servicios</a>
-                        </li>
-                    </ul>
-                </li>-->
                 
                 <li>
                     <a href="services"><i class="fa fa-briefcase fa-fw"></i> Servicios</a>
@@ -80,8 +64,20 @@ $pages = (new Page)->getAll();
                 </li>
                 
                 <li>
-                    <a href="plans"><i class="fa fa-tags fa-fw"></i> Planes</a>
+                    <a href="galleries"><i class="fa fa-camera fa-fw"></i> Galerías</a>
                         
+                </li>
+                
+                <li>
+                    <a href="#"><i class="fa fa-floppy-o fa-fw"></i> Software y Descargas<span class="fa arrow"></span></a>
+                    <ul class="nav nav-second-level collapse">
+                        <li>
+                            <a href="downloadcategories">Categor&iacute;as</a>
+                        </li>
+                        <li>
+                            <a href="downloads">Gestionar Descargas</a>
+                        </li>
+                    </ul>
                 </li>
                 
                 <li>

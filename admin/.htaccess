@@ -1,6 +1,6 @@
 Options -MultiViews
 RewriteEngine on
-RewriteBase /Panel4Websites/admin
+RewriteBase /ayudas/admin
 
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d

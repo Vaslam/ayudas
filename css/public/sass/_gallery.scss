@@ -1,0 +1,46 @@
+/* 
+    Created on : Jun 12, 2015, 4:41:27 PM
+    Author     : juan
+*/
+
+a.gallery-link {
+    
+    &:hover {
+        text-decoration: none;
+        color: inherit;
+    }
+    
+    .gallery-container {
+        
+        border: #a7a7a7 1px solid;
+        min-height: 225px;
+        margin-bottom: 25px;
+        
+        &:hover {
+            background: $primary-color;
+            h3 {
+                color: #fff;
+            }
+        }
+
+        div.image {
+            height: 150px;
+        }
+        h3 {
+            font-size: 13pt;
+            margin: 0px;
+            padding: 15px 10px;
+            text-transform: uppercase;
+        }
+    }
+}
+
+a.photo-link {
+    div.gallery-photo {
+        margin-bottom: 15px;
+        div.image {
+            height: 150px;
+        }
+    }
+    
+}

@@ -1,5 +1,7 @@
 <?php
 
+include_once(BASE_PATH."/models/class-Page.php");
+
 class HTML {
 	
 	public static function renderHeaders() {
@@ -21,9 +23,11 @@ class HTML {
 		</head>
         <body class="public">
 		<?php
+        include(BASE_PATH."/views/includes/mainmenu.php");
 	}
 	
 	public static function renderBottom() {
+        include(BASE_PATH."/views/includes/bottom.php");
 		?>
             <!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>-->
             <script src="<?php echo JS_URL; ?>/jquery.js"></script>

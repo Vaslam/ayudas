@@ -54,6 +54,12 @@ input:-moz-placeholder {
     background-color: #239dd9;
     color: #fff; }
 
+h1.page-header.big {
+  font-size: 38pt;
+  margin-top: 0px;
+  margin-bottom: 50px;
+  padding: 0px; }
+
 .navbar-inverse {
   background: #363636; }
   .navbar-inverse ul.nav-justified li a {
@@ -139,5 +145,41 @@ p.copy-right {
   color: #fff;
   margin: 0px;
   padding: 10px 0px; }
+
+span.social a img {
+  width: 48px;
+  margin: 10px; }
+
+/* 
+    Created on : Jun 12, 2015, 1:24:14 AM
+    Author     : juan
+*/
+/* 
+    Created on : Jun 12, 2015, 4:41:27 PM
+    Author     : juan
+*/
+a.gallery-link:hover {
+  text-decoration: none;
+  color: inherit; }
+a.gallery-link .gallery-container {
+  border: #a7a7a7 1px solid;
+  min-height: 225px;
+  margin-bottom: 25px; }
+  a.gallery-link .gallery-container:hover {
+    background: #239dd9; }
+    a.gallery-link .gallery-container:hover h3 {
+      color: #fff; }
+  a.gallery-link .gallery-container div.image {
+    height: 150px; }
+  a.gallery-link .gallery-container h3 {
+    font-size: 13pt;
+    margin: 0px;
+    padding: 15px 10px;
+    text-transform: uppercase; }
+
+a.photo-link div.gallery-photo {
+  margin-bottom: 15px; }
+  a.photo-link div.gallery-photo div.image {
+    height: 150px; }
 
 /*# sourceMappingURL=template.css.map */
