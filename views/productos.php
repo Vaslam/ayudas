@@ -38,9 +38,9 @@ if(!empty($cat)) {
 ?>
 <div class="products-container">
     <div class="container">
-        <h2 class="products-section-title">
+        <h1 class="page-header text-center big">
             <?php echo $pageTitle; ?>
-        </h2>
+        </h1>
         <?php
         if(!empty($cObj->content)) {
             ?>
@@ -72,7 +72,7 @@ if(!empty($cat)) {
                                     $cImg = APP_URL."/img/nopic.png";
                                 }
                                 ?>
-                                <a href="<?php echo APP_URL."/productos/".$cItem["id"]; ?>">
+                                <a class="category-list-link" href="<?php echo APP_URL."/productos/".$cItem["id"]; ?>">
                                     <div class="category-list-item">
                                         <div class="image" style="background-image: url(<?php echo $cImg; ?>);"></div> 
                                         <h4><?php echo $cItem["title"]; ?></h4>

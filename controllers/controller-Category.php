@@ -19,7 +19,9 @@ if(!empty($_POST["class"]) || !empty($_GET["class"])) {
                 $item->theorder = $_POST["order"];
                 $item->active = !empty($_POST["active"]) ? (int)$_POST["active"] : 0;
                 $item->category = !empty($_POST["category"]) ? (int)$_POST["category"] : 0;
-                if($item->add()) {
+                
+                $itemId = $item->add();
+                if($itemId) {
                     if(!empty($_FILES["picture"]["name"])) {
                         $item->setMainImage($_FILES["picture"], true);
                     }
@@ -34,7 +36,7 @@ if(!empty($_POST["class"]) || !empty($_GET["class"])) {
                 $msg = MSG_EMPTY_FIELD;
             }
             //var_dump($item);exit;
-            header("Location: ../admin/".$_POST["returnpage"]."&msg=".$msg);
+            header("Location: ../admin/".$_POST["returnpage"]."?id=".$itemId."&msg=".$msg);
             break;	
 
         case "delete":

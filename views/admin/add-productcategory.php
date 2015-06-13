@@ -13,7 +13,7 @@
     <input type="hidden" name="action" value="add"/>
     <input type="hidden" name="class" value="ProductCategory"/>
     <input type="hidden" name="token" value="<?php echo session_id(); ?>"/>
-    <input type="hidden" name="returnpage" value="productcategories"/>
+    <input type="hidden" name="returnpage" value="edit-productcategory"/>
     <div class="row">
         <div class="col-lg-5 col-md-5 col-sm-12 col-xs-12">
             Titulo*<br/>
@@ -28,7 +28,7 @@
         <div class="col-lg-offset-1 col-lg-5 col-md-offset-1 col-md-5 col-sm-12 col-xs-12">
             Categoria<br/>
             <?php 
-            AdminPanelHTML::renderCategoriesList("productcategories", ITEM_TYPE_PRODUCT_CATEGORY);
+            AdminPanelHTML::renderCategoriesList("Productcategory");
             ?>
             <br/>
             <button class="btn btn-primary" type="submit">
