@@ -154,6 +154,9 @@ span.social a img {
     Created on : Jun 12, 2015, 1:24:14 AM
     Author     : juan
 */
+.products-container div.categories-list-menu a.category-list-link div.category-list-item div.image {
+  height: 150px; }
+
 /* 
     Created on : Jun 12, 2015, 4:41:27 PM
     Author     : juan

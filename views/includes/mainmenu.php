@@ -58,7 +58,7 @@
 <div class="container text-center">
     <div class="main-menu">
         <div class="row">
-            <a href="">
+            <a href="home">
                 <div class="col-md-2 col-md-offset-1 col-menu">
                     <span class="fa fa-fw fa-3x fa-home"></span>
                     <br/>
@@ -87,7 +87,7 @@
             
             
             
-            <a href="">
+            <a href="productos">
                 <div class="col-md-2 col-menu">
                     <span class="fa fa-fw fa-3x fa-shopping-cart"></span>
                     <br/>
